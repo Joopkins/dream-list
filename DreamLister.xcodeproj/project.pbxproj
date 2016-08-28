@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1406EFC41D729223000D77AE /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1406EFC31D729223000D77AE /* MaterialView.swift */; };
 		141C465B1D7251E800E01E5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141C465A1D7251E800E01E5B /* AppDelegate.swift */; };
 		141C465D1D7251E800E01E5B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141C465C1D7251E800E01E5B /* MainViewController.swift */; };
 		141C46601D7251E800E01E5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141C465E1D7251E800E01E5B /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1406EFC31D729223000D77AE /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		141C46571D7251E800E01E5B /* DreamLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		141C465A1D7251E800E01E5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		141C465C1D7251E800E01E5B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1406EFC21D729214000D77AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1406EFC31D729223000D77AE /* MaterialView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		141C464E1D7251E800E01E5B = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +84,7 @@
 		141C46591D7251E800E01E5B /* DreamLister */ = {
 			isa = PBXGroup;
 			children = (
+				1406EFC21D729214000D77AE /* View */,
 				146087291D728CCE00CC83A2 /* Generated */,
 				146087281D728CC700CC83A2 /* Model */,
 				141C465A1D7251E800E01E5B /* AppDelegate.swift */,
@@ -184,6 +195,7 @@
 				146087221D728CB400CC83A2 /* Item+CoreDataProperties.swift in Sources */,
 				146087251D728CB400CC83A2 /* Image.swift in Sources */,
 				146087211D728CB400CC83A2 /* Store.swift in Sources */,
+				1406EFC41D729223000D77AE /* MaterialView.swift in Sources */,
 				141C465D1D7251E800E01E5B /* MainViewController.swift in Sources */,
 				146087201D728CB400CC83A2 /* Store+CoreDataProperties.swift in Sources */,
 				146087231D728CB400CC83A2 /* Item.swift in Sources */,
